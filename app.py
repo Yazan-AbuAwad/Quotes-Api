@@ -16,7 +16,7 @@ class Quotes(db.Model):
 
 @app.route('/')
 def index():
-    return f'Try /quotes'
+    return f'Try /quotes , /quotes/(id)'
 
 @app.route('/quotes')
 def get_quotes():
